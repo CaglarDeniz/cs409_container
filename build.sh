@@ -1,2 +1,2 @@
 #! /bin/sh 
-podman build . -t web_image --format docker
+sudo docker build . -t web_container_buntu 
