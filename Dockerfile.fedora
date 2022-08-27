@@ -1,8 +1,0 @@
-FROM fedora:36
-
-RUN dnf check-update ; dnf upgrade -y 
-RUN  dnf install -y  nodejs npm git vim
-
-EXPOSE 8080 
-
-CMD bash
